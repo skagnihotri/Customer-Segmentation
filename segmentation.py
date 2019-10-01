@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-#dataset
+#dataset description
 dataset = pd.read_csv('Mall_Customers.csv')
 data = dataset.drop(['CustomerID'], axis=1)
 data['Gender'] = data['Gender'].factorize()[0]
