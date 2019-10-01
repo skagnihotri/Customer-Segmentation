@@ -69,6 +69,6 @@ plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend()
 plt.show()
-
+#new comment
 #adding result
 dataset['Predict'] = pd.DataFrame(y_hc)
